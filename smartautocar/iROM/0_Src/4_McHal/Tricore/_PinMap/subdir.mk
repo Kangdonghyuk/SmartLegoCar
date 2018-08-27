@@ -1,0 +1,60 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../0_Src/4_McHal/Tricore/_PinMap/IfxAsclin_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxCcu6_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxEray_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxEth_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxGpt12_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxGtm_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxMultican_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxPort_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxQspi_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxScu_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxSent_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxSmu_PinMap.c \
+../0_Src/4_McHal/Tricore/_PinMap/IfxVadc_PinMap.c 
+
+OBJS += \
+./0_Src/4_McHal/Tricore/_PinMap/IfxAsclin_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxCcu6_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxEray_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxEth_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxGpt12_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxGtm_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxMultican_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxPort_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxQspi_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxScu_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxSent_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxSmu_PinMap.o \
+./0_Src/4_McHal/Tricore/_PinMap/IfxVadc_PinMap.o 
+
+C_DEPS += \
+./0_Src/4_McHal/Tricore/_PinMap/IfxAsclin_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxCcu6_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxEray_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxEth_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxGpt12_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxGtm_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxMultican_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxPort_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxQspi_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxScu_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxSent_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxSmu_PinMap.d \
+./0_Src/4_McHal/Tricore/_PinMap/IfxVadc_PinMap.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+0_Src/4_McHal/Tricore/_PinMap/%.o: ../0_Src/4_McHal/Tricore/_PinMap/%.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: TriCore C Compiler'
+	"$(TRICORE_TOOLS)/bin/tricore-gcc" -c -IC:/Users/kimwayne/HanyangUniv_Project/TC237L_DemoPack_HanyangUniv/h -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Qspi\SpiMaster" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Multican" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Multican\Can" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Multican\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\_Impl" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\_Lib\DataHandling" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\_Lib\InternalMux" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\_PinMap" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Asclin\Asc" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Asclin\Lin" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Asclin\Spi" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Asclin\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Cpu\CStart" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Cpu\Irq" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Cpu\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Cpu\Trap" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Dma\Dma" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Dma\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Gtm\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Gtm\Tom" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Gtm\Trig" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Port\Io" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Port\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Scu\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Src\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Stm\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Vadc\Adc" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\Vadc\Std" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore\_Reg" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\Config\Common" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\Tricore\Compilers" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\0_AppSw\APP_inc" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\_Utilities" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\Config" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\If" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\StdIf" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\SysSe" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\1_SrvSw\Tricore" -I"C:\Users\kdh95\Desktop\liunx\Erica\smartcar\TC237L_DemoPack_HanyangUniv\0_Src\4_McHal\Tricore" -fno-common -Os -g3 -W -Wall -Wextra -Wdiv-by-zero -Warray-bounds -Wcast-align -Wignored-qualifiers -Wformat -Wformat-security -DAPPKIT_TC237TFT -fshort-double -mcpu=tc23xx -mversion-info -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

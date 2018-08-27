@@ -1,0 +1,69 @@
+!SESSION 2018-07-04 19:33:41.637 -----------------------------------------------
+eclipse.buildId=20170130-b29c1f1
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2018-07-04 19:33:57.857
+!MESSAGE Plugin com.rt.hightec.framework.buildsystem, extension org.eclipse.ui.perspectiveExtensions, id com.rt.hightec.framework.buildsystem.project.explorer: Attribute 'relative' not defined.  This attribute is required when relationship="stack".
+
+!ENTRY org.eclipse.ui 4 4 2018-07-04 19:33:57.862
+!MESSAGE Unable to process element: view in perspective extension: null
+
+!ENTRY org.eclipse.jface 2 0 2018-07-04 19:33:58.870
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-04 19:33:58.870
+!MESSAGE A conflict occurred for CTRL+SHIFT+S:
+Binding(CTRL+SHIFT+S,
+	ParameterizedCommand(Command(com.rt.hightec.framework.buildsystem.command.open.project.properties,Open Project Properties,
+		Open Project Properties,
+		Category(com.rt.hightec.framework.buildsystem.category.build,HighTec Build Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1cc6017,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rt.hightec.context,,,system)
+Binding(CTRL+SHIFT+S,
+	ParameterizedCommand(Command(org.eclipse.ui.file.saveAll,Save All,
+		Save all current contents,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1cc7f5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-04 19:33:58.870
+!MESSAGE A conflict occurred for CTRL+SHIFT+R:
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(com.rt.hightec.framework.buildsystem.rebuild.active.project,Rebuild Project,
+		Rebuild the active project,
+		Category(com.rt.hightec.framework.buildsystem.category.build,HighTec Build Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@112a9a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rt.hightec.context,,,system)
+Binding(CTRL+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.openResource,Open Resource,
+		Open an editor on a particular resource,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cf8438,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@5beab5,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-04 19:33:58.870
+!MESSAGE A conflict occurred for CTRL+SHIFT+B:
+Binding(CTRL+SHIFT+B,
+	ParameterizedCommand(Command(com.rt.hightec.framework.buildsystem.build.active.project,Build Project,
+		Build the active project,
+		Category(com.rt.hightec.framework.buildsystem.category.build,HighTec Build Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12fd5bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rt.hightec.context,,,system)
+Binding(CTRL+SHIFT+B,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.ToggleBreakpoint,Toggle Breakpoint,
+		Creates or removes a breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@137d116,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
